@@ -10,7 +10,6 @@ before:
     - cmd: go mod tidy
       dir: sinfo
 builds:
-- targets: [go_first_class]
 - goos:
       - linux
 
