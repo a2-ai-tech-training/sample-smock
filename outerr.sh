@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo This is stdout for $0
-echo This is too! Below this is stderr
+echo This is too!! Below this is stderr
 echo text > text.txt
 echo text >> text.txt
 sleep 1
