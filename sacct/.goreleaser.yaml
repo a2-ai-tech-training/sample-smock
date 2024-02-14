@@ -9,7 +9,6 @@ before:
   hooks:
     - cmd: go mod tidy
       dir: sacct
-
 builds:
 - goos:
       - linux
@@ -25,7 +24,6 @@ archives:
       {{- else if eq .Arch "386" }}i386
       {{- else }}{{ .Arch }}{{ end }}
       {{- if .Arm }}v{{ .Arm }}{{ end }}
-
 
 release:
   name_template: 'sacct v{{ .Version }}'
