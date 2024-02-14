@@ -1,0 +1,9 @@
+sacct
+JobID           JobName  Partition    Account  AllocCPUS      State ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+1            test_para+ cpu2mem4gb                     1  COMPLETED      0:0 
+1.batch           batch                                1  COMPLETED      0:0 
+2            test_para+ cpu2mem4gb                     1     FAILED      1:0 
+2.batch           batch                                1     FAILED      1:0 
+3            test_para+ cpu2mem4gb                     1  COMPLETED      0:0 
+3.batch           batch                                1  COMPLETED      0:0 

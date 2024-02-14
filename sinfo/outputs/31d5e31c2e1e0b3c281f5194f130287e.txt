@@ -1,0 +1,2628 @@
+sinfo --json
+{
+  "meta": {
+    "plugins": {
+      "data_parser": "data_parser\/v0.0.39",
+      "accounting_storage": "accounting_storage\/slurmdbd"
+    },
+    "command": [
+      "sinfo",
+      "--json"
+    ],
+    "Slurm": {
+      "version": {
+        "major": 23,
+        "micro": 7,
+        "minor": 2
+      },
+      "release": "23.02.7"
+    }
+  },
+  "sinfo": [
+    {
+      "port": 6818,
+      "node": {
+        "state": [
+          "IDLE",
+          "CLOUD",
+          "POWERED_DOWN"
+        ]
+      },
+      "nodes": {
+        "allocated": 0,
+        "idle": 100,
+        "other": 0,
+        "total": 100,
+        "hostnames": [
+        ],
+        "addresses": [
+        ],
+        "nodes": [
+          "cpu2mem4gb-dy-c7i-large-1",
+          "cpu2mem4gb-dy-c7i-large-2",
+          "cpu2mem4gb-dy-c7i-large-3",
+          "cpu2mem4gb-dy-c7i-large-4",
+          "cpu2mem4gb-dy-c7i-large-5",
+          "cpu2mem4gb-dy-c7i-large-6",
+          "cpu2mem4gb-dy-c7i-large-7",
+          "cpu2mem4gb-dy-c7i-large-8",
+          "cpu2mem4gb-dy-c7i-large-9",
+          "cpu2mem4gb-dy-c7i-large-10",
+          "cpu2mem4gb-dy-c7i-large-11",
+          "cpu2mem4gb-dy-c7i-large-12",
+          "cpu2mem4gb-dy-c7i-large-13",
+          "cpu2mem4gb-dy-c7i-large-14",
+          "cpu2mem4gb-dy-c7i-large-15",
+          "cpu2mem4gb-dy-c7i-large-16",
+          "cpu2mem4gb-dy-c7i-large-17",
+          "cpu2mem4gb-dy-c7i-large-18",
+          "cpu2mem4gb-dy-c7i-large-19",
+          "cpu2mem4gb-dy-c7i-large-20",
+          "cpu2mem4gb-dy-c7i-large-21",
+          "cpu2mem4gb-dy-c7i-large-22",
+          "cpu2mem4gb-dy-c7i-large-23",
+          "cpu2mem4gb-dy-c7i-large-24",
+          "cpu2mem4gb-dy-c7i-large-25",
+          "cpu2mem4gb-dy-c7i-large-26",
+          "cpu2mem4gb-dy-c7i-large-27",
+          "cpu2mem4gb-dy-c7i-large-28",
+          "cpu2mem4gb-dy-c7i-large-29",
+          "cpu2mem4gb-dy-c7i-large-30",
+          "cpu2mem4gb-dy-c7i-large-31",
+          "cpu2mem4gb-dy-c7i-large-32",
+          "cpu2mem4gb-dy-c7i-large-33",
+          "cpu2mem4gb-dy-c7i-large-34",
+          "cpu2mem4gb-dy-c7i-large-35",
+          "cpu2mem4gb-dy-c7i-large-36",
+          "cpu2mem4gb-dy-c7i-large-37",
+          "cpu2mem4gb-dy-c7i-large-38",
+          "cpu2mem4gb-dy-c7i-large-39",
+          "cpu2mem4gb-dy-c7i-large-40",
+          "cpu2mem4gb-dy-c7i-large-41",
+          "cpu2mem4gb-dy-c7i-large-42",
+          "cpu2mem4gb-dy-c7i-large-43",
+          "cpu2mem4gb-dy-c7i-large-44",
+          "cpu2mem4gb-dy-c7i-large-45",
+          "cpu2mem4gb-dy-c7i-large-46",
+          "cpu2mem4gb-dy-c7i-large-47",
+          "cpu2mem4gb-dy-c7i-large-48",
+          "cpu2mem4gb-dy-c7i-large-49",
+          "cpu2mem4gb-dy-c7i-large-50",
+          "cpu2mem4gb-dy-c7i-large-51",
+          "cpu2mem4gb-dy-c7i-large-52",
+          "cpu2mem4gb-dy-c7i-large-53",
+          "cpu2mem4gb-dy-c7i-large-54",
+          "cpu2mem4gb-dy-c7i-large-55",
+          "cpu2mem4gb-dy-c7i-large-56",
+          "cpu2mem4gb-dy-c7i-large-57",
+          "cpu2mem4gb-dy-c7i-large-58",
+          "cpu2mem4gb-dy-c7i-large-59",
+          "cpu2mem4gb-dy-c7i-large-60",
+          "cpu2mem4gb-dy-c7i-large-61",
+          "cpu2mem4gb-dy-c7i-large-62",
+          "cpu2mem4gb-dy-c7i-large-63",
+          "cpu2mem4gb-dy-c7i-large-64",
+          "cpu2mem4gb-dy-c7i-large-65",
+          "cpu2mem4gb-dy-c7i-large-66",
+          "cpu2mem4gb-dy-c7i-large-67",
+          "cpu2mem4gb-dy-c7i-large-68",
+          "cpu2mem4gb-dy-c7i-large-69",
+          "cpu2mem4gb-dy-c7i-large-70",
+          "cpu2mem4gb-dy-c7i-large-71",
+          "cpu2mem4gb-dy-c7i-large-72",
+          "cpu2mem4gb-dy-c7i-large-73",
+          "cpu2mem4gb-dy-c7i-large-74",
+          "cpu2mem4gb-dy-c7i-large-75",
+          "cpu2mem4gb-dy-c7i-large-76",
+          "cpu2mem4gb-dy-c7i-large-77",
+          "cpu2mem4gb-dy-c7i-large-78",
+          "cpu2mem4gb-dy-c7i-large-79",
+          "cpu2mem4gb-dy-c7i-large-80",
+          "cpu2mem4gb-dy-c7i-large-81",
+          "cpu2mem4gb-dy-c7i-large-82",
+          "cpu2mem4gb-dy-c7i-large-83",
+          "cpu2mem4gb-dy-c7i-large-84",
+          "cpu2mem4gb-dy-c7i-large-85",
+          "cpu2mem4gb-dy-c7i-large-86",
+          "cpu2mem4gb-dy-c7i-large-87",
+          "cpu2mem4gb-dy-c7i-large-88",
+          "cpu2mem4gb-dy-c7i-large-89",
+          "cpu2mem4gb-dy-c7i-large-90",
+          "cpu2mem4gb-dy-c7i-large-91",
+          "cpu2mem4gb-dy-c7i-large-92",
+          "cpu2mem4gb-dy-c7i-large-93",
+          "cpu2mem4gb-dy-c7i-large-94",
+          "cpu2mem4gb-dy-c7i-large-95",
+          "cpu2mem4gb-dy-c7i-large-96",
+          "cpu2mem4gb-dy-c7i-large-97",
+          "cpu2mem4gb-dy-c7i-large-98",
+          "cpu2mem4gb-dy-c7i-large-99",
+          "cpu2mem4gb-dy-c7i-large-100"
+        ]
+      },
+      "cpus": {
+        "allocated": 0,
+        "idle": 200,
+        "other": 0,
+        "total": 200,
+        "minimum": 2,
+        "maximum": 2,
+        "load": {
+          "minimum": 4294967294,
+          "maximum": 4294967294
+        },
+        "per_node": {
+          "max": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          }
+        }
+      },
+      "sockets": {
+        "minimum": 2,
+        "maximum": 2
+      },
+      "cores": {
+        "minimum": 1,
+        "maximum": 1
+      },
+      "threads": {
+        "minimum": 1,
+        "maximum": 1
+      },
+      "disk": {
+        "minimum": 0,
+        "maximum": 0
+      },
+      "memory": {
+        "minimum": 3891,
+        "maximum": 3891,
+        "free": {
+          "minimum": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          },
+          "maximum": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          }
+        },
+        "allocated": 0
+      },
+      "weight": {
+        "minimum": 1000,
+        "maximum": 1000
+      },
+      "features": {
+        "total": "dynamic,c7i.large,c7i-large",
+        "active": "dynamic,c7i.large,c7i-large"
+      },
+      "gres": {
+        "total": "",
+        "used": "gpu:0"
+      },
+      "cluster": "",
+      "comment": "",
+      "extra": "",
+      "reason": {
+        "description": "",
+        "time": 0,
+        "user": "root"
+      },
+      "reservation": "",
+      "partition": {
+        "nodes": {
+          "allowed_allocation": "",
+          "configured": "cpu2mem4gb-dy-c7i-large-[1-100]",
+          "total": 100
+        },
+        "accounts": {
+          "allowed": "",
+          "deny": ""
+        },
+        "groups": {
+          "allowed": ""
+        },
+        "qos": {
+          "allowed": "",
+          "deny": "",
+          "assigned": ""
+        },
+        "alternate": "",
+        "tres": {
+          "billing_weights": "",
+          "configured": "cpu=200,mem=389100M,node=100,billing=200"
+        },
+        "cluster": "",
+        "cpus": {
+          "task_binding": 0,
+          "total": 200
+        },
+        "defaults": {
+          "memory_per_cpu": 0,
+          "time": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          },
+          "job": ""
+        },
+        "grace_time": 0,
+        "maximums": {
+          "cpus_per_node": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "cpus_per_socket": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "memory_per_cpu": 0,
+          "nodes": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "shares": 1,
+          "time": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "over_time_limit": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          }
+        },
+        "minimums": {
+          "nodes": 0
+        },
+        "name": "cpu2mem4gb",
+        "node_sets": "cpu2mem4gb_nodes",
+        "priority": {
+          "job_factor": 1,
+          "tier": 1
+        },
+        "timeouts": {
+          "resume": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          },
+          "suspend": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          }
+        },
+        "suspend_time": {
+          "set": false,
+          "infinite": false,
+          "number": 0
+        }
+      }
+    },
+    {
+      "port": 6818,
+      "node": {
+        "state": [
+          "IDLE",
+          "CLOUD",
+          "POWERED_DOWN"
+        ]
+      },
+      "nodes": {
+        "allocated": 0,
+        "idle": 100,
+        "other": 0,
+        "total": 100,
+        "hostnames": [
+        ],
+        "addresses": [
+        ],
+        "nodes": [
+          "cpu4mem32gb-dy-r7i-xlarge-1",
+          "cpu4mem32gb-dy-r7i-xlarge-2",
+          "cpu4mem32gb-dy-r7i-xlarge-3",
+          "cpu4mem32gb-dy-r7i-xlarge-4",
+          "cpu4mem32gb-dy-r7i-xlarge-5",
+          "cpu4mem32gb-dy-r7i-xlarge-6",
+          "cpu4mem32gb-dy-r7i-xlarge-7",
+          "cpu4mem32gb-dy-r7i-xlarge-8",
+          "cpu4mem32gb-dy-r7i-xlarge-9",
+          "cpu4mem32gb-dy-r7i-xlarge-10",
+          "cpu4mem32gb-dy-r7i-xlarge-11",
+          "cpu4mem32gb-dy-r7i-xlarge-12",
+          "cpu4mem32gb-dy-r7i-xlarge-13",
+          "cpu4mem32gb-dy-r7i-xlarge-14",
+          "cpu4mem32gb-dy-r7i-xlarge-15",
+          "cpu4mem32gb-dy-r7i-xlarge-16",
+          "cpu4mem32gb-dy-r7i-xlarge-17",
+          "cpu4mem32gb-dy-r7i-xlarge-18",
+          "cpu4mem32gb-dy-r7i-xlarge-19",
+          "cpu4mem32gb-dy-r7i-xlarge-20",
+          "cpu4mem32gb-dy-r7i-xlarge-21",
+          "cpu4mem32gb-dy-r7i-xlarge-22",
+          "cpu4mem32gb-dy-r7i-xlarge-23",
+          "cpu4mem32gb-dy-r7i-xlarge-24",
+          "cpu4mem32gb-dy-r7i-xlarge-25",
+          "cpu4mem32gb-dy-r7i-xlarge-26",
+          "cpu4mem32gb-dy-r7i-xlarge-27",
+          "cpu4mem32gb-dy-r7i-xlarge-28",
+          "cpu4mem32gb-dy-r7i-xlarge-29",
+          "cpu4mem32gb-dy-r7i-xlarge-30",
+          "cpu4mem32gb-dy-r7i-xlarge-31",
+          "cpu4mem32gb-dy-r7i-xlarge-32",
+          "cpu4mem32gb-dy-r7i-xlarge-33",
+          "cpu4mem32gb-dy-r7i-xlarge-34",
+          "cpu4mem32gb-dy-r7i-xlarge-35",
+          "cpu4mem32gb-dy-r7i-xlarge-36",
+          "cpu4mem32gb-dy-r7i-xlarge-37",
+          "cpu4mem32gb-dy-r7i-xlarge-38",
+          "cpu4mem32gb-dy-r7i-xlarge-39",
+          "cpu4mem32gb-dy-r7i-xlarge-40",
+          "cpu4mem32gb-dy-r7i-xlarge-41",
+          "cpu4mem32gb-dy-r7i-xlarge-42",
+          "cpu4mem32gb-dy-r7i-xlarge-43",
+          "cpu4mem32gb-dy-r7i-xlarge-44",
+          "cpu4mem32gb-dy-r7i-xlarge-45",
+          "cpu4mem32gb-dy-r7i-xlarge-46",
+          "cpu4mem32gb-dy-r7i-xlarge-47",
+          "cpu4mem32gb-dy-r7i-xlarge-48",
+          "cpu4mem32gb-dy-r7i-xlarge-49",
+          "cpu4mem32gb-dy-r7i-xlarge-50",
+          "cpu4mem32gb-dy-r7i-xlarge-51",
+          "cpu4mem32gb-dy-r7i-xlarge-52",
+          "cpu4mem32gb-dy-r7i-xlarge-53",
+          "cpu4mem32gb-dy-r7i-xlarge-54",
+          "cpu4mem32gb-dy-r7i-xlarge-55",
+          "cpu4mem32gb-dy-r7i-xlarge-56",
+          "cpu4mem32gb-dy-r7i-xlarge-57",
+          "cpu4mem32gb-dy-r7i-xlarge-58",
+          "cpu4mem32gb-dy-r7i-xlarge-59",
+          "cpu4mem32gb-dy-r7i-xlarge-60",
+          "cpu4mem32gb-dy-r7i-xlarge-61",
+          "cpu4mem32gb-dy-r7i-xlarge-62",
+          "cpu4mem32gb-dy-r7i-xlarge-63",
+          "cpu4mem32gb-dy-r7i-xlarge-64",
+          "cpu4mem32gb-dy-r7i-xlarge-65",
+          "cpu4mem32gb-dy-r7i-xlarge-66",
+          "cpu4mem32gb-dy-r7i-xlarge-67",
+          "cpu4mem32gb-dy-r7i-xlarge-68",
+          "cpu4mem32gb-dy-r7i-xlarge-69",
+          "cpu4mem32gb-dy-r7i-xlarge-70",
+          "cpu4mem32gb-dy-r7i-xlarge-71",
+          "cpu4mem32gb-dy-r7i-xlarge-72",
+          "cpu4mem32gb-dy-r7i-xlarge-73",
+          "cpu4mem32gb-dy-r7i-xlarge-74",
+          "cpu4mem32gb-dy-r7i-xlarge-75",
+          "cpu4mem32gb-dy-r7i-xlarge-76",
+          "cpu4mem32gb-dy-r7i-xlarge-77",
+          "cpu4mem32gb-dy-r7i-xlarge-78",
+          "cpu4mem32gb-dy-r7i-xlarge-79",
+          "cpu4mem32gb-dy-r7i-xlarge-80",
+          "cpu4mem32gb-dy-r7i-xlarge-81",
+          "cpu4mem32gb-dy-r7i-xlarge-82",
+          "cpu4mem32gb-dy-r7i-xlarge-83",
+          "cpu4mem32gb-dy-r7i-xlarge-84",
+          "cpu4mem32gb-dy-r7i-xlarge-85",
+          "cpu4mem32gb-dy-r7i-xlarge-86",
+          "cpu4mem32gb-dy-r7i-xlarge-87",
+          "cpu4mem32gb-dy-r7i-xlarge-88",
+          "cpu4mem32gb-dy-r7i-xlarge-89",
+          "cpu4mem32gb-dy-r7i-xlarge-90",
+          "cpu4mem32gb-dy-r7i-xlarge-91",
+          "cpu4mem32gb-dy-r7i-xlarge-92",
+          "cpu4mem32gb-dy-r7i-xlarge-93",
+          "cpu4mem32gb-dy-r7i-xlarge-94",
+          "cpu4mem32gb-dy-r7i-xlarge-95",
+          "cpu4mem32gb-dy-r7i-xlarge-96",
+          "cpu4mem32gb-dy-r7i-xlarge-97",
+          "cpu4mem32gb-dy-r7i-xlarge-98",
+          "cpu4mem32gb-dy-r7i-xlarge-99",
+          "cpu4mem32gb-dy-r7i-xlarge-100"
+        ]
+      },
+      "cpus": {
+        "allocated": 0,
+        "idle": 400,
+        "other": 0,
+        "total": 400,
+        "minimum": 4,
+        "maximum": 4,
+        "load": {
+          "minimum": 4294967294,
+          "maximum": 4294967294
+        },
+        "per_node": {
+          "max": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          }
+        }
+      },
+      "sockets": {
+        "minimum": 4,
+        "maximum": 4
+      },
+      "cores": {
+        "minimum": 1,
+        "maximum": 1
+      },
+      "threads": {
+        "minimum": 1,
+        "maximum": 1
+      },
+      "disk": {
+        "minimum": 0,
+        "maximum": 0
+      },
+      "memory": {
+        "minimum": 31129,
+        "maximum": 31129,
+        "free": {
+          "minimum": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          },
+          "maximum": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          }
+        },
+        "allocated": 0
+      },
+      "weight": {
+        "minimum": 1000,
+        "maximum": 1000
+      },
+      "features": {
+        "total": "dynamic,r7i.xlarge,r7i-xlarge",
+        "active": "dynamic,r7i.xlarge,r7i-xlarge"
+      },
+      "gres": {
+        "total": "",
+        "used": "gpu:0"
+      },
+      "cluster": "",
+      "comment": "",
+      "extra": "",
+      "reason": {
+        "description": "",
+        "time": 0,
+        "user": "root"
+      },
+      "reservation": "",
+      "partition": {
+        "nodes": {
+          "allowed_allocation": "",
+          "configured": "cpu4mem32gb-dy-r7i-xlarge-[1-100]",
+          "total": 100
+        },
+        "accounts": {
+          "allowed": "",
+          "deny": ""
+        },
+        "groups": {
+          "allowed": ""
+        },
+        "qos": {
+          "allowed": "",
+          "deny": "",
+          "assigned": ""
+        },
+        "alternate": "",
+        "tres": {
+          "billing_weights": "",
+          "configured": "cpu=400,mem=3112900M,node=100,billing=400"
+        },
+        "cluster": "",
+        "cpus": {
+          "task_binding": 0,
+          "total": 400
+        },
+        "defaults": {
+          "memory_per_cpu": 0,
+          "time": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          },
+          "job": ""
+        },
+        "grace_time": 0,
+        "maximums": {
+          "cpus_per_node": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "cpus_per_socket": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "memory_per_cpu": 0,
+          "nodes": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "shares": 1,
+          "time": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "over_time_limit": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          }
+        },
+        "minimums": {
+          "nodes": 0
+        },
+        "name": "cpu4mem32gb",
+        "node_sets": "cpu4mem32gb_nodes",
+        "priority": {
+          "job_factor": 1,
+          "tier": 1
+        },
+        "timeouts": {
+          "resume": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          },
+          "suspend": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          }
+        },
+        "suspend_time": {
+          "set": false,
+          "infinite": false,
+          "number": 0
+        }
+      }
+    },
+    {
+      "port": 6818,
+      "node": {
+        "state": [
+          "IDLE",
+          "CLOUD",
+          "POWERED_DOWN"
+        ]
+      },
+      "nodes": {
+        "allocated": 0,
+        "idle": 100,
+        "other": 0,
+        "total": 100,
+        "hostnames": [
+        ],
+        "addresses": [
+        ],
+        "nodes": [
+          "cpu8mem64gb-dy-r7i-2xlarge-1",
+          "cpu8mem64gb-dy-r7i-2xlarge-2",
+          "cpu8mem64gb-dy-r7i-2xlarge-3",
+          "cpu8mem64gb-dy-r7i-2xlarge-4",
+          "cpu8mem64gb-dy-r7i-2xlarge-5",
+          "cpu8mem64gb-dy-r7i-2xlarge-6",
+          "cpu8mem64gb-dy-r7i-2xlarge-7",
+          "cpu8mem64gb-dy-r7i-2xlarge-8",
+          "cpu8mem64gb-dy-r7i-2xlarge-9",
+          "cpu8mem64gb-dy-r7i-2xlarge-10",
+          "cpu8mem64gb-dy-r7i-2xlarge-11",
+          "cpu8mem64gb-dy-r7i-2xlarge-12",
+          "cpu8mem64gb-dy-r7i-2xlarge-13",
+          "cpu8mem64gb-dy-r7i-2xlarge-14",
+          "cpu8mem64gb-dy-r7i-2xlarge-15",
+          "cpu8mem64gb-dy-r7i-2xlarge-16",
+          "cpu8mem64gb-dy-r7i-2xlarge-17",
+          "cpu8mem64gb-dy-r7i-2xlarge-18",
+          "cpu8mem64gb-dy-r7i-2xlarge-19",
+          "cpu8mem64gb-dy-r7i-2xlarge-20",
+          "cpu8mem64gb-dy-r7i-2xlarge-21",
+          "cpu8mem64gb-dy-r7i-2xlarge-22",
+          "cpu8mem64gb-dy-r7i-2xlarge-23",
+          "cpu8mem64gb-dy-r7i-2xlarge-24",
+          "cpu8mem64gb-dy-r7i-2xlarge-25",
+          "cpu8mem64gb-dy-r7i-2xlarge-26",
+          "cpu8mem64gb-dy-r7i-2xlarge-27",
+          "cpu8mem64gb-dy-r7i-2xlarge-28",
+          "cpu8mem64gb-dy-r7i-2xlarge-29",
+          "cpu8mem64gb-dy-r7i-2xlarge-30",
+          "cpu8mem64gb-dy-r7i-2xlarge-31",
+          "cpu8mem64gb-dy-r7i-2xlarge-32",
+          "cpu8mem64gb-dy-r7i-2xlarge-33",
+          "cpu8mem64gb-dy-r7i-2xlarge-34",
+          "cpu8mem64gb-dy-r7i-2xlarge-35",
+          "cpu8mem64gb-dy-r7i-2xlarge-36",
+          "cpu8mem64gb-dy-r7i-2xlarge-37",
+          "cpu8mem64gb-dy-r7i-2xlarge-38",
+          "cpu8mem64gb-dy-r7i-2xlarge-39",
+          "cpu8mem64gb-dy-r7i-2xlarge-40",
+          "cpu8mem64gb-dy-r7i-2xlarge-41",
+          "cpu8mem64gb-dy-r7i-2xlarge-42",
+          "cpu8mem64gb-dy-r7i-2xlarge-43",
+          "cpu8mem64gb-dy-r7i-2xlarge-44",
+          "cpu8mem64gb-dy-r7i-2xlarge-45",
+          "cpu8mem64gb-dy-r7i-2xlarge-46",
+          "cpu8mem64gb-dy-r7i-2xlarge-47",
+          "cpu8mem64gb-dy-r7i-2xlarge-48",
+          "cpu8mem64gb-dy-r7i-2xlarge-49",
+          "cpu8mem64gb-dy-r7i-2xlarge-50",
+          "cpu8mem64gb-dy-r7i-2xlarge-51",
+          "cpu8mem64gb-dy-r7i-2xlarge-52",
+          "cpu8mem64gb-dy-r7i-2xlarge-53",
+          "cpu8mem64gb-dy-r7i-2xlarge-54",
+          "cpu8mem64gb-dy-r7i-2xlarge-55",
+          "cpu8mem64gb-dy-r7i-2xlarge-56",
+          "cpu8mem64gb-dy-r7i-2xlarge-57",
+          "cpu8mem64gb-dy-r7i-2xlarge-58",
+          "cpu8mem64gb-dy-r7i-2xlarge-59",
+          "cpu8mem64gb-dy-r7i-2xlarge-60",
+          "cpu8mem64gb-dy-r7i-2xlarge-61",
+          "cpu8mem64gb-dy-r7i-2xlarge-62",
+          "cpu8mem64gb-dy-r7i-2xlarge-63",
+          "cpu8mem64gb-dy-r7i-2xlarge-64",
+          "cpu8mem64gb-dy-r7i-2xlarge-65",
+          "cpu8mem64gb-dy-r7i-2xlarge-66",
+          "cpu8mem64gb-dy-r7i-2xlarge-67",
+          "cpu8mem64gb-dy-r7i-2xlarge-68",
+          "cpu8mem64gb-dy-r7i-2xlarge-69",
+          "cpu8mem64gb-dy-r7i-2xlarge-70",
+          "cpu8mem64gb-dy-r7i-2xlarge-71",
+          "cpu8mem64gb-dy-r7i-2xlarge-72",
+          "cpu8mem64gb-dy-r7i-2xlarge-73",
+          "cpu8mem64gb-dy-r7i-2xlarge-74",
+          "cpu8mem64gb-dy-r7i-2xlarge-75",
+          "cpu8mem64gb-dy-r7i-2xlarge-76",
+          "cpu8mem64gb-dy-r7i-2xlarge-77",
+          "cpu8mem64gb-dy-r7i-2xlarge-78",
+          "cpu8mem64gb-dy-r7i-2xlarge-79",
+          "cpu8mem64gb-dy-r7i-2xlarge-80",
+          "cpu8mem64gb-dy-r7i-2xlarge-81",
+          "cpu8mem64gb-dy-r7i-2xlarge-82",
+          "cpu8mem64gb-dy-r7i-2xlarge-83",
+          "cpu8mem64gb-dy-r7i-2xlarge-84",
+          "cpu8mem64gb-dy-r7i-2xlarge-85",
+          "cpu8mem64gb-dy-r7i-2xlarge-86",
+          "cpu8mem64gb-dy-r7i-2xlarge-87",
+          "cpu8mem64gb-dy-r7i-2xlarge-88",
+          "cpu8mem64gb-dy-r7i-2xlarge-89",
+          "cpu8mem64gb-dy-r7i-2xlarge-90",
+          "cpu8mem64gb-dy-r7i-2xlarge-91",
+          "cpu8mem64gb-dy-r7i-2xlarge-92",
+          "cpu8mem64gb-dy-r7i-2xlarge-93",
+          "cpu8mem64gb-dy-r7i-2xlarge-94",
+          "cpu8mem64gb-dy-r7i-2xlarge-95",
+          "cpu8mem64gb-dy-r7i-2xlarge-96",
+          "cpu8mem64gb-dy-r7i-2xlarge-97",
+          "cpu8mem64gb-dy-r7i-2xlarge-98",
+          "cpu8mem64gb-dy-r7i-2xlarge-99",
+          "cpu8mem64gb-dy-r7i-2xlarge-100"
+        ]
+      },
+      "cpus": {
+        "allocated": 0,
+        "idle": 800,
+        "other": 0,
+        "total": 800,
+        "minimum": 8,
+        "maximum": 8,
+        "load": {
+          "minimum": 4294967294,
+          "maximum": 4294967294
+        },
+        "per_node": {
+          "max": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          }
+        }
+      },
+      "sockets": {
+        "minimum": 8,
+        "maximum": 8
+      },
+      "cores": {
+        "minimum": 1,
+        "maximum": 1
+      },
+      "threads": {
+        "minimum": 1,
+        "maximum": 1
+      },
+      "disk": {
+        "minimum": 0,
+        "maximum": 0
+      },
+      "memory": {
+        "minimum": 62259,
+        "maximum": 62259,
+        "free": {
+          "minimum": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          },
+          "maximum": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          }
+        },
+        "allocated": 0
+      },
+      "weight": {
+        "minimum": 1000,
+        "maximum": 1000
+      },
+      "features": {
+        "total": "dynamic,r7i.2xlarge,r7i-2xlarge",
+        "active": "dynamic,r7i.2xlarge,r7i-2xlarge"
+      },
+      "gres": {
+        "total": "",
+        "used": "gpu:0"
+      },
+      "cluster": "",
+      "comment": "",
+      "extra": "",
+      "reason": {
+        "description": "",
+        "time": 0,
+        "user": "root"
+      },
+      "reservation": "",
+      "partition": {
+        "nodes": {
+          "allowed_allocation": "",
+          "configured": "cpu8mem64gb-dy-r7i-2xlarge-[1-100]",
+          "total": 100
+        },
+        "accounts": {
+          "allowed": "",
+          "deny": ""
+        },
+        "groups": {
+          "allowed": ""
+        },
+        "qos": {
+          "allowed": "",
+          "deny": "",
+          "assigned": ""
+        },
+        "alternate": "",
+        "tres": {
+          "billing_weights": "",
+          "configured": "cpu=800,mem=6225900M,node=100,billing=800"
+        },
+        "cluster": "",
+        "cpus": {
+          "task_binding": 0,
+          "total": 800
+        },
+        "defaults": {
+          "memory_per_cpu": 0,
+          "time": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          },
+          "job": ""
+        },
+        "grace_time": 0,
+        "maximums": {
+          "cpus_per_node": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "cpus_per_socket": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "memory_per_cpu": 0,
+          "nodes": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "shares": 1,
+          "time": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "over_time_limit": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          }
+        },
+        "minimums": {
+          "nodes": 0
+        },
+        "name": "cpu8mem64gb",
+        "node_sets": "cpu8mem64gb_nodes",
+        "priority": {
+          "job_factor": 1,
+          "tier": 1
+        },
+        "timeouts": {
+          "resume": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          },
+          "suspend": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          }
+        },
+        "suspend_time": {
+          "set": false,
+          "infinite": false,
+          "number": 0
+        }
+      }
+    },
+    {
+      "port": 6818,
+      "node": {
+        "state": [
+          "IDLE",
+          "CLOUD",
+          "POWERED_DOWN"
+        ]
+      },
+      "nodes": {
+        "allocated": 0,
+        "idle": 100,
+        "other": 0,
+        "total": 100,
+        "hostnames": [
+        ],
+        "addresses": [
+        ],
+        "nodes": [
+          "cpu2mem8gb-dy-c7i-xlarge-1",
+          "cpu2mem8gb-dy-c7i-xlarge-2",
+          "cpu2mem8gb-dy-c7i-xlarge-3",
+          "cpu2mem8gb-dy-c7i-xlarge-4",
+          "cpu2mem8gb-dy-c7i-xlarge-5",
+          "cpu2mem8gb-dy-c7i-xlarge-6",
+          "cpu2mem8gb-dy-c7i-xlarge-7",
+          "cpu2mem8gb-dy-c7i-xlarge-8",
+          "cpu2mem8gb-dy-c7i-xlarge-9",
+          "cpu2mem8gb-dy-c7i-xlarge-10",
+          "cpu2mem8gb-dy-c7i-xlarge-11",
+          "cpu2mem8gb-dy-c7i-xlarge-12",
+          "cpu2mem8gb-dy-c7i-xlarge-13",
+          "cpu2mem8gb-dy-c7i-xlarge-14",
+          "cpu2mem8gb-dy-c7i-xlarge-15",
+          "cpu2mem8gb-dy-c7i-xlarge-16",
+          "cpu2mem8gb-dy-c7i-xlarge-17",
+          "cpu2mem8gb-dy-c7i-xlarge-18",
+          "cpu2mem8gb-dy-c7i-xlarge-19",
+          "cpu2mem8gb-dy-c7i-xlarge-20",
+          "cpu2mem8gb-dy-c7i-xlarge-21",
+          "cpu2mem8gb-dy-c7i-xlarge-22",
+          "cpu2mem8gb-dy-c7i-xlarge-23",
+          "cpu2mem8gb-dy-c7i-xlarge-24",
+          "cpu2mem8gb-dy-c7i-xlarge-25",
+          "cpu2mem8gb-dy-c7i-xlarge-26",
+          "cpu2mem8gb-dy-c7i-xlarge-27",
+          "cpu2mem8gb-dy-c7i-xlarge-28",
+          "cpu2mem8gb-dy-c7i-xlarge-29",
+          "cpu2mem8gb-dy-c7i-xlarge-30",
+          "cpu2mem8gb-dy-c7i-xlarge-31",
+          "cpu2mem8gb-dy-c7i-xlarge-32",
+          "cpu2mem8gb-dy-c7i-xlarge-33",
+          "cpu2mem8gb-dy-c7i-xlarge-34",
+          "cpu2mem8gb-dy-c7i-xlarge-35",
+          "cpu2mem8gb-dy-c7i-xlarge-36",
+          "cpu2mem8gb-dy-c7i-xlarge-37",
+          "cpu2mem8gb-dy-c7i-xlarge-38",
+          "cpu2mem8gb-dy-c7i-xlarge-39",
+          "cpu2mem8gb-dy-c7i-xlarge-40",
+          "cpu2mem8gb-dy-c7i-xlarge-41",
+          "cpu2mem8gb-dy-c7i-xlarge-42",
+          "cpu2mem8gb-dy-c7i-xlarge-43",
+          "cpu2mem8gb-dy-c7i-xlarge-44",
+          "cpu2mem8gb-dy-c7i-xlarge-45",
+          "cpu2mem8gb-dy-c7i-xlarge-46",
+          "cpu2mem8gb-dy-c7i-xlarge-47",
+          "cpu2mem8gb-dy-c7i-xlarge-48",
+          "cpu2mem8gb-dy-c7i-xlarge-49",
+          "cpu2mem8gb-dy-c7i-xlarge-50",
+          "cpu2mem8gb-dy-c7i-xlarge-51",
+          "cpu2mem8gb-dy-c7i-xlarge-52",
+          "cpu2mem8gb-dy-c7i-xlarge-53",
+          "cpu2mem8gb-dy-c7i-xlarge-54",
+          "cpu2mem8gb-dy-c7i-xlarge-55",
+          "cpu2mem8gb-dy-c7i-xlarge-56",
+          "cpu2mem8gb-dy-c7i-xlarge-57",
+          "cpu2mem8gb-dy-c7i-xlarge-58",
+          "cpu2mem8gb-dy-c7i-xlarge-59",
+          "cpu2mem8gb-dy-c7i-xlarge-60",
+          "cpu2mem8gb-dy-c7i-xlarge-61",
+          "cpu2mem8gb-dy-c7i-xlarge-62",
+          "cpu2mem8gb-dy-c7i-xlarge-63",
+          "cpu2mem8gb-dy-c7i-xlarge-64",
+          "cpu2mem8gb-dy-c7i-xlarge-65",
+          "cpu2mem8gb-dy-c7i-xlarge-66",
+          "cpu2mem8gb-dy-c7i-xlarge-67",
+          "cpu2mem8gb-dy-c7i-xlarge-68",
+          "cpu2mem8gb-dy-c7i-xlarge-69",
+          "cpu2mem8gb-dy-c7i-xlarge-70",
+          "cpu2mem8gb-dy-c7i-xlarge-71",
+          "cpu2mem8gb-dy-c7i-xlarge-72",
+          "cpu2mem8gb-dy-c7i-xlarge-73",
+          "cpu2mem8gb-dy-c7i-xlarge-74",
+          "cpu2mem8gb-dy-c7i-xlarge-75",
+          "cpu2mem8gb-dy-c7i-xlarge-76",
+          "cpu2mem8gb-dy-c7i-xlarge-77",
+          "cpu2mem8gb-dy-c7i-xlarge-78",
+          "cpu2mem8gb-dy-c7i-xlarge-79",
+          "cpu2mem8gb-dy-c7i-xlarge-80",
+          "cpu2mem8gb-dy-c7i-xlarge-81",
+          "cpu2mem8gb-dy-c7i-xlarge-82",
+          "cpu2mem8gb-dy-c7i-xlarge-83",
+          "cpu2mem8gb-dy-c7i-xlarge-84",
+          "cpu2mem8gb-dy-c7i-xlarge-85",
+          "cpu2mem8gb-dy-c7i-xlarge-86",
+          "cpu2mem8gb-dy-c7i-xlarge-87",
+          "cpu2mem8gb-dy-c7i-xlarge-88",
+          "cpu2mem8gb-dy-c7i-xlarge-89",
+          "cpu2mem8gb-dy-c7i-xlarge-90",
+          "cpu2mem8gb-dy-c7i-xlarge-91",
+          "cpu2mem8gb-dy-c7i-xlarge-92",
+          "cpu2mem8gb-dy-c7i-xlarge-93",
+          "cpu2mem8gb-dy-c7i-xlarge-94",
+          "cpu2mem8gb-dy-c7i-xlarge-95",
+          "cpu2mem8gb-dy-c7i-xlarge-96",
+          "cpu2mem8gb-dy-c7i-xlarge-97",
+          "cpu2mem8gb-dy-c7i-xlarge-98",
+          "cpu2mem8gb-dy-c7i-xlarge-99",
+          "cpu2mem8gb-dy-c7i-xlarge-100"
+        ]
+      },
+      "cpus": {
+        "allocated": 0,
+        "idle": 200,
+        "other": 0,
+        "total": 200,
+        "minimum": 2,
+        "maximum": 2,
+        "load": {
+          "minimum": 4294967294,
+          "maximum": 4294967294
+        },
+        "per_node": {
+          "max": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          }
+        }
+      },
+      "sockets": {
+        "minimum": 2,
+        "maximum": 2
+      },
+      "cores": {
+        "minimum": 1,
+        "maximum": 1
+      },
+      "threads": {
+        "minimum": 1,
+        "maximum": 1
+      },
+      "disk": {
+        "minimum": 0,
+        "maximum": 0
+      },
+      "memory": {
+        "minimum": 7782,
+        "maximum": 7782,
+        "free": {
+          "minimum": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          },
+          "maximum": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          }
+        },
+        "allocated": 0
+      },
+      "weight": {
+        "minimum": 1000,
+        "maximum": 1000
+      },
+      "features": {
+        "total": "dynamic,c7i.xlarge,c7i-xlarge",
+        "active": "dynamic,c7i.xlarge,c7i-xlarge"
+      },
+      "gres": {
+        "total": "",
+        "used": "gpu:0"
+      },
+      "cluster": "",
+      "comment": "",
+      "extra": "",
+      "reason": {
+        "description": "",
+        "time": 0,
+        "user": "root"
+      },
+      "reservation": "",
+      "partition": {
+        "nodes": {
+          "allowed_allocation": "",
+          "configured": "cpu2mem8gb-dy-c7i-xlarge-[1-100]",
+          "total": 100
+        },
+        "accounts": {
+          "allowed": "",
+          "deny": ""
+        },
+        "groups": {
+          "allowed": ""
+        },
+        "qos": {
+          "allowed": "",
+          "deny": "",
+          "assigned": ""
+        },
+        "alternate": "",
+        "tres": {
+          "billing_weights": "",
+          "configured": "cpu=200,mem=778200M,node=100,billing=200"
+        },
+        "cluster": "",
+        "cpus": {
+          "task_binding": 0,
+          "total": 200
+        },
+        "defaults": {
+          "memory_per_cpu": 0,
+          "time": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          },
+          "job": ""
+        },
+        "grace_time": 0,
+        "maximums": {
+          "cpus_per_node": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "cpus_per_socket": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "memory_per_cpu": 0,
+          "nodes": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "shares": 1,
+          "time": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "over_time_limit": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          }
+        },
+        "minimums": {
+          "nodes": 0
+        },
+        "name": "cpu2mem8gb",
+        "node_sets": "cpu2mem8gb_nodes",
+        "priority": {
+          "job_factor": 1,
+          "tier": 1
+        },
+        "timeouts": {
+          "resume": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          },
+          "suspend": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          }
+        },
+        "suspend_time": {
+          "set": false,
+          "infinite": false,
+          "number": 0
+        }
+      }
+    },
+    {
+      "port": 6818,
+      "node": {
+        "state": [
+          "IDLE",
+          "CLOUD",
+          "POWERED_DOWN"
+        ]
+      },
+      "nodes": {
+        "allocated": 0,
+        "idle": 100,
+        "other": 0,
+        "total": 100,
+        "hostnames": [
+        ],
+        "addresses": [
+        ],
+        "nodes": [
+          "cpu4mem16gb-dy-c7i-2xlarge-1",
+          "cpu4mem16gb-dy-c7i-2xlarge-2",
+          "cpu4mem16gb-dy-c7i-2xlarge-3",
+          "cpu4mem16gb-dy-c7i-2xlarge-4",
+          "cpu4mem16gb-dy-c7i-2xlarge-5",
+          "cpu4mem16gb-dy-c7i-2xlarge-6",
+          "cpu4mem16gb-dy-c7i-2xlarge-7",
+          "cpu4mem16gb-dy-c7i-2xlarge-8",
+          "cpu4mem16gb-dy-c7i-2xlarge-9",
+          "cpu4mem16gb-dy-c7i-2xlarge-10",
+          "cpu4mem16gb-dy-c7i-2xlarge-11",
+          "cpu4mem16gb-dy-c7i-2xlarge-12",
+          "cpu4mem16gb-dy-c7i-2xlarge-13",
+          "cpu4mem16gb-dy-c7i-2xlarge-14",
+          "cpu4mem16gb-dy-c7i-2xlarge-15",
+          "cpu4mem16gb-dy-c7i-2xlarge-16",
+          "cpu4mem16gb-dy-c7i-2xlarge-17",
+          "cpu4mem16gb-dy-c7i-2xlarge-18",
+          "cpu4mem16gb-dy-c7i-2xlarge-19",
+          "cpu4mem16gb-dy-c7i-2xlarge-20",
+          "cpu4mem16gb-dy-c7i-2xlarge-21",
+          "cpu4mem16gb-dy-c7i-2xlarge-22",
+          "cpu4mem16gb-dy-c7i-2xlarge-23",
+          "cpu4mem16gb-dy-c7i-2xlarge-24",
+          "cpu4mem16gb-dy-c7i-2xlarge-25",
+          "cpu4mem16gb-dy-c7i-2xlarge-26",
+          "cpu4mem16gb-dy-c7i-2xlarge-27",
+          "cpu4mem16gb-dy-c7i-2xlarge-28",
+          "cpu4mem16gb-dy-c7i-2xlarge-29",
+          "cpu4mem16gb-dy-c7i-2xlarge-30",
+          "cpu4mem16gb-dy-c7i-2xlarge-31",
+          "cpu4mem16gb-dy-c7i-2xlarge-32",
+          "cpu4mem16gb-dy-c7i-2xlarge-33",
+          "cpu4mem16gb-dy-c7i-2xlarge-34",
+          "cpu4mem16gb-dy-c7i-2xlarge-35",
+          "cpu4mem16gb-dy-c7i-2xlarge-36",
+          "cpu4mem16gb-dy-c7i-2xlarge-37",
+          "cpu4mem16gb-dy-c7i-2xlarge-38",
+          "cpu4mem16gb-dy-c7i-2xlarge-39",
+          "cpu4mem16gb-dy-c7i-2xlarge-40",
+          "cpu4mem16gb-dy-c7i-2xlarge-41",
+          "cpu4mem16gb-dy-c7i-2xlarge-42",
+          "cpu4mem16gb-dy-c7i-2xlarge-43",
+          "cpu4mem16gb-dy-c7i-2xlarge-44",
+          "cpu4mem16gb-dy-c7i-2xlarge-45",
+          "cpu4mem16gb-dy-c7i-2xlarge-46",
+          "cpu4mem16gb-dy-c7i-2xlarge-47",
+          "cpu4mem16gb-dy-c7i-2xlarge-48",
+          "cpu4mem16gb-dy-c7i-2xlarge-49",
+          "cpu4mem16gb-dy-c7i-2xlarge-50",
+          "cpu4mem16gb-dy-c7i-2xlarge-51",
+          "cpu4mem16gb-dy-c7i-2xlarge-52",
+          "cpu4mem16gb-dy-c7i-2xlarge-53",
+          "cpu4mem16gb-dy-c7i-2xlarge-54",
+          "cpu4mem16gb-dy-c7i-2xlarge-55",
+          "cpu4mem16gb-dy-c7i-2xlarge-56",
+          "cpu4mem16gb-dy-c7i-2xlarge-57",
+          "cpu4mem16gb-dy-c7i-2xlarge-58",
+          "cpu4mem16gb-dy-c7i-2xlarge-59",
+          "cpu4mem16gb-dy-c7i-2xlarge-60",
+          "cpu4mem16gb-dy-c7i-2xlarge-61",
+          "cpu4mem16gb-dy-c7i-2xlarge-62",
+          "cpu4mem16gb-dy-c7i-2xlarge-63",
+          "cpu4mem16gb-dy-c7i-2xlarge-64",
+          "cpu4mem16gb-dy-c7i-2xlarge-65",
+          "cpu4mem16gb-dy-c7i-2xlarge-66",
+          "cpu4mem16gb-dy-c7i-2xlarge-67",
+          "cpu4mem16gb-dy-c7i-2xlarge-68",
+          "cpu4mem16gb-dy-c7i-2xlarge-69",
+          "cpu4mem16gb-dy-c7i-2xlarge-70",
+          "cpu4mem16gb-dy-c7i-2xlarge-71",
+          "cpu4mem16gb-dy-c7i-2xlarge-72",
+          "cpu4mem16gb-dy-c7i-2xlarge-73",
+          "cpu4mem16gb-dy-c7i-2xlarge-74",
+          "cpu4mem16gb-dy-c7i-2xlarge-75",
+          "cpu4mem16gb-dy-c7i-2xlarge-76",
+          "cpu4mem16gb-dy-c7i-2xlarge-77",
+          "cpu4mem16gb-dy-c7i-2xlarge-78",
+          "cpu4mem16gb-dy-c7i-2xlarge-79",
+          "cpu4mem16gb-dy-c7i-2xlarge-80",
+          "cpu4mem16gb-dy-c7i-2xlarge-81",
+          "cpu4mem16gb-dy-c7i-2xlarge-82",
+          "cpu4mem16gb-dy-c7i-2xlarge-83",
+          "cpu4mem16gb-dy-c7i-2xlarge-84",
+          "cpu4mem16gb-dy-c7i-2xlarge-85",
+          "cpu4mem16gb-dy-c7i-2xlarge-86",
+          "cpu4mem16gb-dy-c7i-2xlarge-87",
+          "cpu4mem16gb-dy-c7i-2xlarge-88",
+          "cpu4mem16gb-dy-c7i-2xlarge-89",
+          "cpu4mem16gb-dy-c7i-2xlarge-90",
+          "cpu4mem16gb-dy-c7i-2xlarge-91",
+          "cpu4mem16gb-dy-c7i-2xlarge-92",
+          "cpu4mem16gb-dy-c7i-2xlarge-93",
+          "cpu4mem16gb-dy-c7i-2xlarge-94",
+          "cpu4mem16gb-dy-c7i-2xlarge-95",
+          "cpu4mem16gb-dy-c7i-2xlarge-96",
+          "cpu4mem16gb-dy-c7i-2xlarge-97",
+          "cpu4mem16gb-dy-c7i-2xlarge-98",
+          "cpu4mem16gb-dy-c7i-2xlarge-99",
+          "cpu4mem16gb-dy-c7i-2xlarge-100"
+        ]
+      },
+      "cpus": {
+        "allocated": 0,
+        "idle": 400,
+        "other": 0,
+        "total": 400,
+        "minimum": 4,
+        "maximum": 4,
+        "load": {
+          "minimum": 4294967294,
+          "maximum": 4294967294
+        },
+        "per_node": {
+          "max": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          }
+        }
+      },
+      "sockets": {
+        "minimum": 4,
+        "maximum": 4
+      },
+      "cores": {
+        "minimum": 1,
+        "maximum": 1
+      },
+      "threads": {
+        "minimum": 1,
+        "maximum": 1
+      },
+      "disk": {
+        "minimum": 0,
+        "maximum": 0
+      },
+      "memory": {
+        "minimum": 15564,
+        "maximum": 15564,
+        "free": {
+          "minimum": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          },
+          "maximum": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          }
+        },
+        "allocated": 0
+      },
+      "weight": {
+        "minimum": 1000,
+        "maximum": 1000
+      },
+      "features": {
+        "total": "dynamic,c7i.2xlarge,c7i-2xlarge",
+        "active": "dynamic,c7i.2xlarge,c7i-2xlarge"
+      },
+      "gres": {
+        "total": "",
+        "used": "gpu:0"
+      },
+      "cluster": "",
+      "comment": "",
+      "extra": "",
+      "reason": {
+        "description": "",
+        "time": 0,
+        "user": "root"
+      },
+      "reservation": "",
+      "partition": {
+        "nodes": {
+          "allowed_allocation": "",
+          "configured": "cpu4mem16gb-dy-c7i-2xlarge-[1-100]",
+          "total": 100
+        },
+        "accounts": {
+          "allowed": "",
+          "deny": ""
+        },
+        "groups": {
+          "allowed": ""
+        },
+        "qos": {
+          "allowed": "",
+          "deny": "",
+          "assigned": ""
+        },
+        "alternate": "",
+        "tres": {
+          "billing_weights": "",
+          "configured": "cpu=400,mem=1556400M,node=100,billing=400"
+        },
+        "cluster": "",
+        "cpus": {
+          "task_binding": 0,
+          "total": 400
+        },
+        "defaults": {
+          "memory_per_cpu": 0,
+          "time": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          },
+          "job": ""
+        },
+        "grace_time": 0,
+        "maximums": {
+          "cpus_per_node": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "cpus_per_socket": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "memory_per_cpu": 0,
+          "nodes": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "shares": 1,
+          "time": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "over_time_limit": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          }
+        },
+        "minimums": {
+          "nodes": 0
+        },
+        "name": "cpu4mem16gb",
+        "node_sets": "cpu4mem16gb_nodes",
+        "priority": {
+          "job_factor": 1,
+          "tier": 1
+        },
+        "timeouts": {
+          "resume": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          },
+          "suspend": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          }
+        },
+        "suspend_time": {
+          "set": false,
+          "infinite": false,
+          "number": 0
+        }
+      }
+    },
+    {
+      "port": 6818,
+      "node": {
+        "state": [
+          "IDLE",
+          "CLOUD",
+          "POWERED_DOWN"
+        ]
+      },
+      "nodes": {
+        "allocated": 0,
+        "idle": 100,
+        "other": 0,
+        "total": 100,
+        "hostnames": [
+        ],
+        "addresses": [
+        ],
+        "nodes": [
+          "cpu16mem128gb-dy-r7i-4xlarge-1",
+          "cpu16mem128gb-dy-r7i-4xlarge-2",
+          "cpu16mem128gb-dy-r7i-4xlarge-3",
+          "cpu16mem128gb-dy-r7i-4xlarge-4",
+          "cpu16mem128gb-dy-r7i-4xlarge-5",
+          "cpu16mem128gb-dy-r7i-4xlarge-6",
+          "cpu16mem128gb-dy-r7i-4xlarge-7",
+          "cpu16mem128gb-dy-r7i-4xlarge-8",
+          "cpu16mem128gb-dy-r7i-4xlarge-9",
+          "cpu16mem128gb-dy-r7i-4xlarge-10",
+          "cpu16mem128gb-dy-r7i-4xlarge-11",
+          "cpu16mem128gb-dy-r7i-4xlarge-12",
+          "cpu16mem128gb-dy-r7i-4xlarge-13",
+          "cpu16mem128gb-dy-r7i-4xlarge-14",
+          "cpu16mem128gb-dy-r7i-4xlarge-15",
+          "cpu16mem128gb-dy-r7i-4xlarge-16",
+          "cpu16mem128gb-dy-r7i-4xlarge-17",
+          "cpu16mem128gb-dy-r7i-4xlarge-18",
+          "cpu16mem128gb-dy-r7i-4xlarge-19",
+          "cpu16mem128gb-dy-r7i-4xlarge-20",
+          "cpu16mem128gb-dy-r7i-4xlarge-21",
+          "cpu16mem128gb-dy-r7i-4xlarge-22",
+          "cpu16mem128gb-dy-r7i-4xlarge-23",
+          "cpu16mem128gb-dy-r7i-4xlarge-24",
+          "cpu16mem128gb-dy-r7i-4xlarge-25",
+          "cpu16mem128gb-dy-r7i-4xlarge-26",
+          "cpu16mem128gb-dy-r7i-4xlarge-27",
+          "cpu16mem128gb-dy-r7i-4xlarge-28",
+          "cpu16mem128gb-dy-r7i-4xlarge-29",
+          "cpu16mem128gb-dy-r7i-4xlarge-30",
+          "cpu16mem128gb-dy-r7i-4xlarge-31",
+          "cpu16mem128gb-dy-r7i-4xlarge-32",
+          "cpu16mem128gb-dy-r7i-4xlarge-33",
+          "cpu16mem128gb-dy-r7i-4xlarge-34",
+          "cpu16mem128gb-dy-r7i-4xlarge-35",
+          "cpu16mem128gb-dy-r7i-4xlarge-36",
+          "cpu16mem128gb-dy-r7i-4xlarge-37",
+          "cpu16mem128gb-dy-r7i-4xlarge-38",
+          "cpu16mem128gb-dy-r7i-4xlarge-39",
+          "cpu16mem128gb-dy-r7i-4xlarge-40",
+          "cpu16mem128gb-dy-r7i-4xlarge-41",
+          "cpu16mem128gb-dy-r7i-4xlarge-42",
+          "cpu16mem128gb-dy-r7i-4xlarge-43",
+          "cpu16mem128gb-dy-r7i-4xlarge-44",
+          "cpu16mem128gb-dy-r7i-4xlarge-45",
+          "cpu16mem128gb-dy-r7i-4xlarge-46",
+          "cpu16mem128gb-dy-r7i-4xlarge-47",
+          "cpu16mem128gb-dy-r7i-4xlarge-48",
+          "cpu16mem128gb-dy-r7i-4xlarge-49",
+          "cpu16mem128gb-dy-r7i-4xlarge-50",
+          "cpu16mem128gb-dy-r7i-4xlarge-51",
+          "cpu16mem128gb-dy-r7i-4xlarge-52",
+          "cpu16mem128gb-dy-r7i-4xlarge-53",
+          "cpu16mem128gb-dy-r7i-4xlarge-54",
+          "cpu16mem128gb-dy-r7i-4xlarge-55",
+          "cpu16mem128gb-dy-r7i-4xlarge-56",
+          "cpu16mem128gb-dy-r7i-4xlarge-57",
+          "cpu16mem128gb-dy-r7i-4xlarge-58",
+          "cpu16mem128gb-dy-r7i-4xlarge-59",
+          "cpu16mem128gb-dy-r7i-4xlarge-60",
+          "cpu16mem128gb-dy-r7i-4xlarge-61",
+          "cpu16mem128gb-dy-r7i-4xlarge-62",
+          "cpu16mem128gb-dy-r7i-4xlarge-63",
+          "cpu16mem128gb-dy-r7i-4xlarge-64",
+          "cpu16mem128gb-dy-r7i-4xlarge-65",
+          "cpu16mem128gb-dy-r7i-4xlarge-66",
+          "cpu16mem128gb-dy-r7i-4xlarge-67",
+          "cpu16mem128gb-dy-r7i-4xlarge-68",
+          "cpu16mem128gb-dy-r7i-4xlarge-69",
+          "cpu16mem128gb-dy-r7i-4xlarge-70",
+          "cpu16mem128gb-dy-r7i-4xlarge-71",
+          "cpu16mem128gb-dy-r7i-4xlarge-72",
+          "cpu16mem128gb-dy-r7i-4xlarge-73",
+          "cpu16mem128gb-dy-r7i-4xlarge-74",
+          "cpu16mem128gb-dy-r7i-4xlarge-75",
+          "cpu16mem128gb-dy-r7i-4xlarge-76",
+          "cpu16mem128gb-dy-r7i-4xlarge-77",
+          "cpu16mem128gb-dy-r7i-4xlarge-78",
+          "cpu16mem128gb-dy-r7i-4xlarge-79",
+          "cpu16mem128gb-dy-r7i-4xlarge-80",
+          "cpu16mem128gb-dy-r7i-4xlarge-81",
+          "cpu16mem128gb-dy-r7i-4xlarge-82",
+          "cpu16mem128gb-dy-r7i-4xlarge-83",
+          "cpu16mem128gb-dy-r7i-4xlarge-84",
+          "cpu16mem128gb-dy-r7i-4xlarge-85",
+          "cpu16mem128gb-dy-r7i-4xlarge-86",
+          "cpu16mem128gb-dy-r7i-4xlarge-87",
+          "cpu16mem128gb-dy-r7i-4xlarge-88",
+          "cpu16mem128gb-dy-r7i-4xlarge-89",
+          "cpu16mem128gb-dy-r7i-4xlarge-90",
+          "cpu16mem128gb-dy-r7i-4xlarge-91",
+          "cpu16mem128gb-dy-r7i-4xlarge-92",
+          "cpu16mem128gb-dy-r7i-4xlarge-93",
+          "cpu16mem128gb-dy-r7i-4xlarge-94",
+          "cpu16mem128gb-dy-r7i-4xlarge-95",
+          "cpu16mem128gb-dy-r7i-4xlarge-96",
+          "cpu16mem128gb-dy-r7i-4xlarge-97",
+          "cpu16mem128gb-dy-r7i-4xlarge-98",
+          "cpu16mem128gb-dy-r7i-4xlarge-99",
+          "cpu16mem128gb-dy-r7i-4xlarge-100"
+        ]
+      },
+      "cpus": {
+        "allocated": 0,
+        "idle": 1600,
+        "other": 0,
+        "total": 1600,
+        "minimum": 16,
+        "maximum": 16,
+        "load": {
+          "minimum": 4294967294,
+          "maximum": 4294967294
+        },
+        "per_node": {
+          "max": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          }
+        }
+      },
+      "sockets": {
+        "minimum": 16,
+        "maximum": 16
+      },
+      "cores": {
+        "minimum": 1,
+        "maximum": 1
+      },
+      "threads": {
+        "minimum": 1,
+        "maximum": 1
+      },
+      "disk": {
+        "minimum": 0,
+        "maximum": 0
+      },
+      "memory": {
+        "minimum": 124518,
+        "maximum": 124518,
+        "free": {
+          "minimum": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          },
+          "maximum": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          }
+        },
+        "allocated": 0
+      },
+      "weight": {
+        "minimum": 1000,
+        "maximum": 1000
+      },
+      "features": {
+        "total": "dynamic,r7i.4xlarge,r7i-4xlarge",
+        "active": "dynamic,r7i.4xlarge,r7i-4xlarge"
+      },
+      "gres": {
+        "total": "",
+        "used": "gpu:0"
+      },
+      "cluster": "",
+      "comment": "",
+      "extra": "",
+      "reason": {
+        "description": "",
+        "time": 0,
+        "user": "root"
+      },
+      "reservation": "",
+      "partition": {
+        "nodes": {
+          "allowed_allocation": "",
+          "configured": "cpu16mem128gb-dy-r7i-4xlarge-[1-100]",
+          "total": 100
+        },
+        "accounts": {
+          "allowed": "",
+          "deny": ""
+        },
+        "groups": {
+          "allowed": ""
+        },
+        "qos": {
+          "allowed": "",
+          "deny": "",
+          "assigned": ""
+        },
+        "alternate": "",
+        "tres": {
+          "billing_weights": "",
+          "configured": "cpu=1600,mem=12451800M,node=100,billing=1600"
+        },
+        "cluster": "",
+        "cpus": {
+          "task_binding": 0,
+          "total": 1600
+        },
+        "defaults": {
+          "memory_per_cpu": 0,
+          "time": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          },
+          "job": ""
+        },
+        "grace_time": 0,
+        "maximums": {
+          "cpus_per_node": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "cpus_per_socket": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "memory_per_cpu": 0,
+          "nodes": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "shares": 1,
+          "time": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "over_time_limit": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          }
+        },
+        "minimums": {
+          "nodes": 0
+        },
+        "name": "cpu16mem128gb",
+        "node_sets": "cpu16mem128gb_nodes",
+        "priority": {
+          "job_factor": 1,
+          "tier": 1
+        },
+        "timeouts": {
+          "resume": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          },
+          "suspend": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          }
+        },
+        "suspend_time": {
+          "set": false,
+          "infinite": false,
+          "number": 0
+        }
+      }
+    },
+    {
+      "port": 6818,
+      "node": {
+        "state": [
+          "IDLE",
+          "CLOUD",
+          "POWERED_DOWN"
+        ]
+      },
+      "nodes": {
+        "allocated": 0,
+        "idle": 100,
+        "other": 0,
+        "total": 100,
+        "hostnames": [
+        ],
+        "addresses": [
+        ],
+        "nodes": [
+          "cpu8mem32gb-dy-c7i-4xlarge-1",
+          "cpu8mem32gb-dy-c7i-4xlarge-2",
+          "cpu8mem32gb-dy-c7i-4xlarge-3",
+          "cpu8mem32gb-dy-c7i-4xlarge-4",
+          "cpu8mem32gb-dy-c7i-4xlarge-5",
+          "cpu8mem32gb-dy-c7i-4xlarge-6",
+          "cpu8mem32gb-dy-c7i-4xlarge-7",
+          "cpu8mem32gb-dy-c7i-4xlarge-8",
+          "cpu8mem32gb-dy-c7i-4xlarge-9",
+          "cpu8mem32gb-dy-c7i-4xlarge-10",
+          "cpu8mem32gb-dy-c7i-4xlarge-11",
+          "cpu8mem32gb-dy-c7i-4xlarge-12",
+          "cpu8mem32gb-dy-c7i-4xlarge-13",
+          "cpu8mem32gb-dy-c7i-4xlarge-14",
+          "cpu8mem32gb-dy-c7i-4xlarge-15",
+          "cpu8mem32gb-dy-c7i-4xlarge-16",
+          "cpu8mem32gb-dy-c7i-4xlarge-17",
+          "cpu8mem32gb-dy-c7i-4xlarge-18",
+          "cpu8mem32gb-dy-c7i-4xlarge-19",
+          "cpu8mem32gb-dy-c7i-4xlarge-20",
+          "cpu8mem32gb-dy-c7i-4xlarge-21",
+          "cpu8mem32gb-dy-c7i-4xlarge-22",
+          "cpu8mem32gb-dy-c7i-4xlarge-23",
+          "cpu8mem32gb-dy-c7i-4xlarge-24",
+          "cpu8mem32gb-dy-c7i-4xlarge-25",
+          "cpu8mem32gb-dy-c7i-4xlarge-26",
+          "cpu8mem32gb-dy-c7i-4xlarge-27",
+          "cpu8mem32gb-dy-c7i-4xlarge-28",
+          "cpu8mem32gb-dy-c7i-4xlarge-29",
+          "cpu8mem32gb-dy-c7i-4xlarge-30",
+          "cpu8mem32gb-dy-c7i-4xlarge-31",
+          "cpu8mem32gb-dy-c7i-4xlarge-32",
+          "cpu8mem32gb-dy-c7i-4xlarge-33",
+          "cpu8mem32gb-dy-c7i-4xlarge-34",
+          "cpu8mem32gb-dy-c7i-4xlarge-35",
+          "cpu8mem32gb-dy-c7i-4xlarge-36",
+          "cpu8mem32gb-dy-c7i-4xlarge-37",
+          "cpu8mem32gb-dy-c7i-4xlarge-38",
+          "cpu8mem32gb-dy-c7i-4xlarge-39",
+          "cpu8mem32gb-dy-c7i-4xlarge-40",
+          "cpu8mem32gb-dy-c7i-4xlarge-41",
+          "cpu8mem32gb-dy-c7i-4xlarge-42",
+          "cpu8mem32gb-dy-c7i-4xlarge-43",
+          "cpu8mem32gb-dy-c7i-4xlarge-44",
+          "cpu8mem32gb-dy-c7i-4xlarge-45",
+          "cpu8mem32gb-dy-c7i-4xlarge-46",
+          "cpu8mem32gb-dy-c7i-4xlarge-47",
+          "cpu8mem32gb-dy-c7i-4xlarge-48",
+          "cpu8mem32gb-dy-c7i-4xlarge-49",
+          "cpu8mem32gb-dy-c7i-4xlarge-50",
+          "cpu8mem32gb-dy-c7i-4xlarge-51",
+          "cpu8mem32gb-dy-c7i-4xlarge-52",
+          "cpu8mem32gb-dy-c7i-4xlarge-53",
+          "cpu8mem32gb-dy-c7i-4xlarge-54",
+          "cpu8mem32gb-dy-c7i-4xlarge-55",
+          "cpu8mem32gb-dy-c7i-4xlarge-56",
+          "cpu8mem32gb-dy-c7i-4xlarge-57",
+          "cpu8mem32gb-dy-c7i-4xlarge-58",
+          "cpu8mem32gb-dy-c7i-4xlarge-59",
+          "cpu8mem32gb-dy-c7i-4xlarge-60",
+          "cpu8mem32gb-dy-c7i-4xlarge-61",
+          "cpu8mem32gb-dy-c7i-4xlarge-62",
+          "cpu8mem32gb-dy-c7i-4xlarge-63",
+          "cpu8mem32gb-dy-c7i-4xlarge-64",
+          "cpu8mem32gb-dy-c7i-4xlarge-65",
+          "cpu8mem32gb-dy-c7i-4xlarge-66",
+          "cpu8mem32gb-dy-c7i-4xlarge-67",
+          "cpu8mem32gb-dy-c7i-4xlarge-68",
+          "cpu8mem32gb-dy-c7i-4xlarge-69",
+          "cpu8mem32gb-dy-c7i-4xlarge-70",
+          "cpu8mem32gb-dy-c7i-4xlarge-71",
+          "cpu8mem32gb-dy-c7i-4xlarge-72",
+          "cpu8mem32gb-dy-c7i-4xlarge-73",
+          "cpu8mem32gb-dy-c7i-4xlarge-74",
+          "cpu8mem32gb-dy-c7i-4xlarge-75",
+          "cpu8mem32gb-dy-c7i-4xlarge-76",
+          "cpu8mem32gb-dy-c7i-4xlarge-77",
+          "cpu8mem32gb-dy-c7i-4xlarge-78",
+          "cpu8mem32gb-dy-c7i-4xlarge-79",
+          "cpu8mem32gb-dy-c7i-4xlarge-80",
+          "cpu8mem32gb-dy-c7i-4xlarge-81",
+          "cpu8mem32gb-dy-c7i-4xlarge-82",
+          "cpu8mem32gb-dy-c7i-4xlarge-83",
+          "cpu8mem32gb-dy-c7i-4xlarge-84",
+          "cpu8mem32gb-dy-c7i-4xlarge-85",
+          "cpu8mem32gb-dy-c7i-4xlarge-86",
+          "cpu8mem32gb-dy-c7i-4xlarge-87",
+          "cpu8mem32gb-dy-c7i-4xlarge-88",
+          "cpu8mem32gb-dy-c7i-4xlarge-89",
+          "cpu8mem32gb-dy-c7i-4xlarge-90",
+          "cpu8mem32gb-dy-c7i-4xlarge-91",
+          "cpu8mem32gb-dy-c7i-4xlarge-92",
+          "cpu8mem32gb-dy-c7i-4xlarge-93",
+          "cpu8mem32gb-dy-c7i-4xlarge-94",
+          "cpu8mem32gb-dy-c7i-4xlarge-95",
+          "cpu8mem32gb-dy-c7i-4xlarge-96",
+          "cpu8mem32gb-dy-c7i-4xlarge-97",
+          "cpu8mem32gb-dy-c7i-4xlarge-98",
+          "cpu8mem32gb-dy-c7i-4xlarge-99",
+          "cpu8mem32gb-dy-c7i-4xlarge-100"
+        ]
+      },
+      "cpus": {
+        "allocated": 0,
+        "idle": 800,
+        "other": 0,
+        "total": 800,
+        "minimum": 8,
+        "maximum": 8,
+        "load": {
+          "minimum": 4294967294,
+          "maximum": 4294967294
+        },
+        "per_node": {
+          "max": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          }
+        }
+      },
+      "sockets": {
+        "minimum": 8,
+        "maximum": 8
+      },
+      "cores": {
+        "minimum": 1,
+        "maximum": 1
+      },
+      "threads": {
+        "minimum": 1,
+        "maximum": 1
+      },
+      "disk": {
+        "minimum": 0,
+        "maximum": 0
+      },
+      "memory": {
+        "minimum": 31129,
+        "maximum": 31129,
+        "free": {
+          "minimum": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          },
+          "maximum": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          }
+        },
+        "allocated": 0
+      },
+      "weight": {
+        "minimum": 1000,
+        "maximum": 1000
+      },
+      "features": {
+        "total": "dynamic,c7i.4xlarge,c7i-4xlarge",
+        "active": "dynamic,c7i.4xlarge,c7i-4xlarge"
+      },
+      "gres": {
+        "total": "",
+        "used": "gpu:0"
+      },
+      "cluster": "",
+      "comment": "",
+      "extra": "",
+      "reason": {
+        "description": "",
+        "time": 0,
+        "user": "root"
+      },
+      "reservation": "",
+      "partition": {
+        "nodes": {
+          "allowed_allocation": "",
+          "configured": "cpu8mem32gb-dy-c7i-4xlarge-[1-100]",
+          "total": 100
+        },
+        "accounts": {
+          "allowed": "",
+          "deny": ""
+        },
+        "groups": {
+          "allowed": ""
+        },
+        "qos": {
+          "allowed": "",
+          "deny": "",
+          "assigned": ""
+        },
+        "alternate": "",
+        "tres": {
+          "billing_weights": "",
+          "configured": "cpu=800,mem=3112900M,node=100,billing=800"
+        },
+        "cluster": "",
+        "cpus": {
+          "task_binding": 0,
+          "total": 800
+        },
+        "defaults": {
+          "memory_per_cpu": 0,
+          "time": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          },
+          "job": ""
+        },
+        "grace_time": 0,
+        "maximums": {
+          "cpus_per_node": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "cpus_per_socket": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "memory_per_cpu": 0,
+          "nodes": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "shares": 1,
+          "time": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "over_time_limit": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          }
+        },
+        "minimums": {
+          "nodes": 0
+        },
+        "name": "cpu8mem32gb",
+        "node_sets": "cpu8mem32gb_nodes",
+        "priority": {
+          "job_factor": 1,
+          "tier": 1
+        },
+        "timeouts": {
+          "resume": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          },
+          "suspend": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          }
+        },
+        "suspend_time": {
+          "set": false,
+          "infinite": false,
+          "number": 0
+        }
+      }
+    },
+    {
+      "port": 6818,
+      "node": {
+        "state": [
+          "IDLE",
+          "CLOUD",
+          "POWERED_DOWN"
+        ]
+      },
+      "nodes": {
+        "allocated": 0,
+        "idle": 100,
+        "other": 0,
+        "total": 100,
+        "hostnames": [
+        ],
+        "addresses": [
+        ],
+        "nodes": [
+          "cpu16mem64gb-dy-c7i-8xlarge-1",
+          "cpu16mem64gb-dy-c7i-8xlarge-2",
+          "cpu16mem64gb-dy-c7i-8xlarge-3",
+          "cpu16mem64gb-dy-c7i-8xlarge-4",
+          "cpu16mem64gb-dy-c7i-8xlarge-5",
+          "cpu16mem64gb-dy-c7i-8xlarge-6",
+          "cpu16mem64gb-dy-c7i-8xlarge-7",
+          "cpu16mem64gb-dy-c7i-8xlarge-8",
+          "cpu16mem64gb-dy-c7i-8xlarge-9",
+          "cpu16mem64gb-dy-c7i-8xlarge-10",
+          "cpu16mem64gb-dy-c7i-8xlarge-11",
+          "cpu16mem64gb-dy-c7i-8xlarge-12",
+          "cpu16mem64gb-dy-c7i-8xlarge-13",
+          "cpu16mem64gb-dy-c7i-8xlarge-14",
+          "cpu16mem64gb-dy-c7i-8xlarge-15",
+          "cpu16mem64gb-dy-c7i-8xlarge-16",
+          "cpu16mem64gb-dy-c7i-8xlarge-17",
+          "cpu16mem64gb-dy-c7i-8xlarge-18",
+          "cpu16mem64gb-dy-c7i-8xlarge-19",
+          "cpu16mem64gb-dy-c7i-8xlarge-20",
+          "cpu16mem64gb-dy-c7i-8xlarge-21",
+          "cpu16mem64gb-dy-c7i-8xlarge-22",
+          "cpu16mem64gb-dy-c7i-8xlarge-23",
+          "cpu16mem64gb-dy-c7i-8xlarge-24",
+          "cpu16mem64gb-dy-c7i-8xlarge-25",
+          "cpu16mem64gb-dy-c7i-8xlarge-26",
+          "cpu16mem64gb-dy-c7i-8xlarge-27",
+          "cpu16mem64gb-dy-c7i-8xlarge-28",
+          "cpu16mem64gb-dy-c7i-8xlarge-29",
+          "cpu16mem64gb-dy-c7i-8xlarge-30",
+          "cpu16mem64gb-dy-c7i-8xlarge-31",
+          "cpu16mem64gb-dy-c7i-8xlarge-32",
+          "cpu16mem64gb-dy-c7i-8xlarge-33",
+          "cpu16mem64gb-dy-c7i-8xlarge-34",
+          "cpu16mem64gb-dy-c7i-8xlarge-35",
+          "cpu16mem64gb-dy-c7i-8xlarge-36",
+          "cpu16mem64gb-dy-c7i-8xlarge-37",
+          "cpu16mem64gb-dy-c7i-8xlarge-38",
+          "cpu16mem64gb-dy-c7i-8xlarge-39",
+          "cpu16mem64gb-dy-c7i-8xlarge-40",
+          "cpu16mem64gb-dy-c7i-8xlarge-41",
+          "cpu16mem64gb-dy-c7i-8xlarge-42",
+          "cpu16mem64gb-dy-c7i-8xlarge-43",
+          "cpu16mem64gb-dy-c7i-8xlarge-44",
+          "cpu16mem64gb-dy-c7i-8xlarge-45",
+          "cpu16mem64gb-dy-c7i-8xlarge-46",
+          "cpu16mem64gb-dy-c7i-8xlarge-47",
+          "cpu16mem64gb-dy-c7i-8xlarge-48",
+          "cpu16mem64gb-dy-c7i-8xlarge-49",
+          "cpu16mem64gb-dy-c7i-8xlarge-50",
+          "cpu16mem64gb-dy-c7i-8xlarge-51",
+          "cpu16mem64gb-dy-c7i-8xlarge-52",
+          "cpu16mem64gb-dy-c7i-8xlarge-53",
+          "cpu16mem64gb-dy-c7i-8xlarge-54",
+          "cpu16mem64gb-dy-c7i-8xlarge-55",
+          "cpu16mem64gb-dy-c7i-8xlarge-56",
+          "cpu16mem64gb-dy-c7i-8xlarge-57",
+          "cpu16mem64gb-dy-c7i-8xlarge-58",
+          "cpu16mem64gb-dy-c7i-8xlarge-59",
+          "cpu16mem64gb-dy-c7i-8xlarge-60",
+          "cpu16mem64gb-dy-c7i-8xlarge-61",
+          "cpu16mem64gb-dy-c7i-8xlarge-62",
+          "cpu16mem64gb-dy-c7i-8xlarge-63",
+          "cpu16mem64gb-dy-c7i-8xlarge-64",
+          "cpu16mem64gb-dy-c7i-8xlarge-65",
+          "cpu16mem64gb-dy-c7i-8xlarge-66",
+          "cpu16mem64gb-dy-c7i-8xlarge-67",
+          "cpu16mem64gb-dy-c7i-8xlarge-68",
+          "cpu16mem64gb-dy-c7i-8xlarge-69",
+          "cpu16mem64gb-dy-c7i-8xlarge-70",
+          "cpu16mem64gb-dy-c7i-8xlarge-71",
+          "cpu16mem64gb-dy-c7i-8xlarge-72",
+          "cpu16mem64gb-dy-c7i-8xlarge-73",
+          "cpu16mem64gb-dy-c7i-8xlarge-74",
+          "cpu16mem64gb-dy-c7i-8xlarge-75",
+          "cpu16mem64gb-dy-c7i-8xlarge-76",
+          "cpu16mem64gb-dy-c7i-8xlarge-77",
+          "cpu16mem64gb-dy-c7i-8xlarge-78",
+          "cpu16mem64gb-dy-c7i-8xlarge-79",
+          "cpu16mem64gb-dy-c7i-8xlarge-80",
+          "cpu16mem64gb-dy-c7i-8xlarge-81",
+          "cpu16mem64gb-dy-c7i-8xlarge-82",
+          "cpu16mem64gb-dy-c7i-8xlarge-83",
+          "cpu16mem64gb-dy-c7i-8xlarge-84",
+          "cpu16mem64gb-dy-c7i-8xlarge-85",
+          "cpu16mem64gb-dy-c7i-8xlarge-86",
+          "cpu16mem64gb-dy-c7i-8xlarge-87",
+          "cpu16mem64gb-dy-c7i-8xlarge-88",
+          "cpu16mem64gb-dy-c7i-8xlarge-89",
+          "cpu16mem64gb-dy-c7i-8xlarge-90",
+          "cpu16mem64gb-dy-c7i-8xlarge-91",
+          "cpu16mem64gb-dy-c7i-8xlarge-92",
+          "cpu16mem64gb-dy-c7i-8xlarge-93",
+          "cpu16mem64gb-dy-c7i-8xlarge-94",
+          "cpu16mem64gb-dy-c7i-8xlarge-95",
+          "cpu16mem64gb-dy-c7i-8xlarge-96",
+          "cpu16mem64gb-dy-c7i-8xlarge-97",
+          "cpu16mem64gb-dy-c7i-8xlarge-98",
+          "cpu16mem64gb-dy-c7i-8xlarge-99",
+          "cpu16mem64gb-dy-c7i-8xlarge-100"
+        ]
+      },
+      "cpus": {
+        "allocated": 0,
+        "idle": 1600,
+        "other": 0,
+        "total": 1600,
+        "minimum": 16,
+        "maximum": 16,
+        "load": {
+          "minimum": 4294967294,
+          "maximum": 4294967294
+        },
+        "per_node": {
+          "max": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          }
+        }
+      },
+      "sockets": {
+        "minimum": 16,
+        "maximum": 16
+      },
+      "cores": {
+        "minimum": 1,
+        "maximum": 1
+      },
+      "threads": {
+        "minimum": 1,
+        "maximum": 1
+      },
+      "disk": {
+        "minimum": 0,
+        "maximum": 0
+      },
+      "memory": {
+        "minimum": 62259,
+        "maximum": 62259,
+        "free": {
+          "minimum": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          },
+          "maximum": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          }
+        },
+        "allocated": 0
+      },
+      "weight": {
+        "minimum": 1000,
+        "maximum": 1000
+      },
+      "features": {
+        "total": "dynamic,c7i.8xlarge,c7i-8xlarge",
+        "active": "dynamic,c7i.8xlarge,c7i-8xlarge"
+      },
+      "gres": {
+        "total": "",
+        "used": "gpu:0"
+      },
+      "cluster": "",
+      "comment": "",
+      "extra": "",
+      "reason": {
+        "description": "",
+        "time": 0,
+        "user": "root"
+      },
+      "reservation": "",
+      "partition": {
+        "nodes": {
+          "allowed_allocation": "",
+          "configured": "cpu16mem64gb-dy-c7i-8xlarge-[1-100]",
+          "total": 100
+        },
+        "accounts": {
+          "allowed": "",
+          "deny": ""
+        },
+        "groups": {
+          "allowed": ""
+        },
+        "qos": {
+          "allowed": "",
+          "deny": "",
+          "assigned": ""
+        },
+        "alternate": "",
+        "tres": {
+          "billing_weights": "",
+          "configured": "cpu=1600,mem=6225900M,node=100,billing=1600"
+        },
+        "cluster": "",
+        "cpus": {
+          "task_binding": 0,
+          "total": 1600
+        },
+        "defaults": {
+          "memory_per_cpu": 0,
+          "time": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          },
+          "job": ""
+        },
+        "grace_time": 0,
+        "maximums": {
+          "cpus_per_node": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "cpus_per_socket": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "memory_per_cpu": 0,
+          "nodes": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "shares": 1,
+          "time": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "over_time_limit": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          }
+        },
+        "minimums": {
+          "nodes": 0
+        },
+        "name": "cpu16mem64gb",
+        "node_sets": "cpu16mem64gb_nodes",
+        "priority": {
+          "job_factor": 1,
+          "tier": 1
+        },
+        "timeouts": {
+          "resume": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          },
+          "suspend": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          }
+        },
+        "suspend_time": {
+          "set": false,
+          "infinite": false,
+          "number": 0
+        }
+      }
+    },
+    {
+      "port": 6818,
+      "node": {
+        "state": [
+          "IDLE",
+          "CLOUD",
+          "POWERED_DOWN"
+        ]
+      },
+      "nodes": {
+        "allocated": 0,
+        "idle": 100,
+        "other": 0,
+        "total": 100,
+        "hostnames": [
+        ],
+        "addresses": [
+        ],
+        "nodes": [
+          "cpu32mem128gb-dy-c7i-16xlarge-1",
+          "cpu32mem128gb-dy-c7i-16xlarge-2",
+          "cpu32mem128gb-dy-c7i-16xlarge-3",
+          "cpu32mem128gb-dy-c7i-16xlarge-4",
+          "cpu32mem128gb-dy-c7i-16xlarge-5",
+          "cpu32mem128gb-dy-c7i-16xlarge-6",
+          "cpu32mem128gb-dy-c7i-16xlarge-7",
+          "cpu32mem128gb-dy-c7i-16xlarge-8",
+          "cpu32mem128gb-dy-c7i-16xlarge-9",
+          "cpu32mem128gb-dy-c7i-16xlarge-10",
+          "cpu32mem128gb-dy-c7i-16xlarge-11",
+          "cpu32mem128gb-dy-c7i-16xlarge-12",
+          "cpu32mem128gb-dy-c7i-16xlarge-13",
+          "cpu32mem128gb-dy-c7i-16xlarge-14",
+          "cpu32mem128gb-dy-c7i-16xlarge-15",
+          "cpu32mem128gb-dy-c7i-16xlarge-16",
+          "cpu32mem128gb-dy-c7i-16xlarge-17",
+          "cpu32mem128gb-dy-c7i-16xlarge-18",
+          "cpu32mem128gb-dy-c7i-16xlarge-19",
+          "cpu32mem128gb-dy-c7i-16xlarge-20",
+          "cpu32mem128gb-dy-c7i-16xlarge-21",
+          "cpu32mem128gb-dy-c7i-16xlarge-22",
+          "cpu32mem128gb-dy-c7i-16xlarge-23",
+          "cpu32mem128gb-dy-c7i-16xlarge-24",
+          "cpu32mem128gb-dy-c7i-16xlarge-25",
+          "cpu32mem128gb-dy-c7i-16xlarge-26",
+          "cpu32mem128gb-dy-c7i-16xlarge-27",
+          "cpu32mem128gb-dy-c7i-16xlarge-28",
+          "cpu32mem128gb-dy-c7i-16xlarge-29",
+          "cpu32mem128gb-dy-c7i-16xlarge-30",
+          "cpu32mem128gb-dy-c7i-16xlarge-31",
+          "cpu32mem128gb-dy-c7i-16xlarge-32",
+          "cpu32mem128gb-dy-c7i-16xlarge-33",
+          "cpu32mem128gb-dy-c7i-16xlarge-34",
+          "cpu32mem128gb-dy-c7i-16xlarge-35",
+          "cpu32mem128gb-dy-c7i-16xlarge-36",
+          "cpu32mem128gb-dy-c7i-16xlarge-37",
+          "cpu32mem128gb-dy-c7i-16xlarge-38",
+          "cpu32mem128gb-dy-c7i-16xlarge-39",
+          "cpu32mem128gb-dy-c7i-16xlarge-40",
+          "cpu32mem128gb-dy-c7i-16xlarge-41",
+          "cpu32mem128gb-dy-c7i-16xlarge-42",
+          "cpu32mem128gb-dy-c7i-16xlarge-43",
+          "cpu32mem128gb-dy-c7i-16xlarge-44",
+          "cpu32mem128gb-dy-c7i-16xlarge-45",
+          "cpu32mem128gb-dy-c7i-16xlarge-46",
+          "cpu32mem128gb-dy-c7i-16xlarge-47",
+          "cpu32mem128gb-dy-c7i-16xlarge-48",
+          "cpu32mem128gb-dy-c7i-16xlarge-49",
+          "cpu32mem128gb-dy-c7i-16xlarge-50",
+          "cpu32mem128gb-dy-c7i-16xlarge-51",
+          "cpu32mem128gb-dy-c7i-16xlarge-52",
+          "cpu32mem128gb-dy-c7i-16xlarge-53",
+          "cpu32mem128gb-dy-c7i-16xlarge-54",
+          "cpu32mem128gb-dy-c7i-16xlarge-55",
+          "cpu32mem128gb-dy-c7i-16xlarge-56",
+          "cpu32mem128gb-dy-c7i-16xlarge-57",
+          "cpu32mem128gb-dy-c7i-16xlarge-58",
+          "cpu32mem128gb-dy-c7i-16xlarge-59",
+          "cpu32mem128gb-dy-c7i-16xlarge-60",
+          "cpu32mem128gb-dy-c7i-16xlarge-61",
+          "cpu32mem128gb-dy-c7i-16xlarge-62",
+          "cpu32mem128gb-dy-c7i-16xlarge-63",
+          "cpu32mem128gb-dy-c7i-16xlarge-64",
+          "cpu32mem128gb-dy-c7i-16xlarge-65",
+          "cpu32mem128gb-dy-c7i-16xlarge-66",
+          "cpu32mem128gb-dy-c7i-16xlarge-67",
+          "cpu32mem128gb-dy-c7i-16xlarge-68",
+          "cpu32mem128gb-dy-c7i-16xlarge-69",
+          "cpu32mem128gb-dy-c7i-16xlarge-70",
+          "cpu32mem128gb-dy-c7i-16xlarge-71",
+          "cpu32mem128gb-dy-c7i-16xlarge-72",
+          "cpu32mem128gb-dy-c7i-16xlarge-73",
+          "cpu32mem128gb-dy-c7i-16xlarge-74",
+          "cpu32mem128gb-dy-c7i-16xlarge-75",
+          "cpu32mem128gb-dy-c7i-16xlarge-76",
+          "cpu32mem128gb-dy-c7i-16xlarge-77",
+          "cpu32mem128gb-dy-c7i-16xlarge-78",
+          "cpu32mem128gb-dy-c7i-16xlarge-79",
+          "cpu32mem128gb-dy-c7i-16xlarge-80",
+          "cpu32mem128gb-dy-c7i-16xlarge-81",
+          "cpu32mem128gb-dy-c7i-16xlarge-82",
+          "cpu32mem128gb-dy-c7i-16xlarge-83",
+          "cpu32mem128gb-dy-c7i-16xlarge-84",
+          "cpu32mem128gb-dy-c7i-16xlarge-85",
+          "cpu32mem128gb-dy-c7i-16xlarge-86",
+          "cpu32mem128gb-dy-c7i-16xlarge-87",
+          "cpu32mem128gb-dy-c7i-16xlarge-88",
+          "cpu32mem128gb-dy-c7i-16xlarge-89",
+          "cpu32mem128gb-dy-c7i-16xlarge-90",
+          "cpu32mem128gb-dy-c7i-16xlarge-91",
+          "cpu32mem128gb-dy-c7i-16xlarge-92",
+          "cpu32mem128gb-dy-c7i-16xlarge-93",
+          "cpu32mem128gb-dy-c7i-16xlarge-94",
+          "cpu32mem128gb-dy-c7i-16xlarge-95",
+          "cpu32mem128gb-dy-c7i-16xlarge-96",
+          "cpu32mem128gb-dy-c7i-16xlarge-97",
+          "cpu32mem128gb-dy-c7i-16xlarge-98",
+          "cpu32mem128gb-dy-c7i-16xlarge-99",
+          "cpu32mem128gb-dy-c7i-16xlarge-100"
+        ]
+      },
+      "cpus": {
+        "allocated": 0,
+        "idle": 3200,
+        "other": 0,
+        "total": 3200,
+        "minimum": 32,
+        "maximum": 32,
+        "load": {
+          "minimum": 4294967294,
+          "maximum": 4294967294
+        },
+        "per_node": {
+          "max": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          }
+        }
+      },
+      "sockets": {
+        "minimum": 32,
+        "maximum": 32
+      },
+      "cores": {
+        "minimum": 1,
+        "maximum": 1
+      },
+      "threads": {
+        "minimum": 1,
+        "maximum": 1
+      },
+      "disk": {
+        "minimum": 0,
+        "maximum": 0
+      },
+      "memory": {
+        "minimum": 124518,
+        "maximum": 124518,
+        "free": {
+          "minimum": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          },
+          "maximum": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          }
+        },
+        "allocated": 0
+      },
+      "weight": {
+        "minimum": 1000,
+        "maximum": 1000
+      },
+      "features": {
+        "total": "dynamic,c7i.16xlarge,c7i-16xlarge",
+        "active": "dynamic,c7i.16xlarge,c7i-16xlarge"
+      },
+      "gres": {
+        "total": "",
+        "used": "gpu:0"
+      },
+      "cluster": "",
+      "comment": "",
+      "extra": "",
+      "reason": {
+        "description": "",
+        "time": 0,
+        "user": "root"
+      },
+      "reservation": "",
+      "partition": {
+        "nodes": {
+          "allowed_allocation": "",
+          "configured": "cpu32mem128gb-dy-c7i-16xlarge-[1-100]",
+          "total": 100
+        },
+        "accounts": {
+          "allowed": "",
+          "deny": ""
+        },
+        "groups": {
+          "allowed": ""
+        },
+        "qos": {
+          "allowed": "",
+          "deny": "",
+          "assigned": ""
+        },
+        "alternate": "",
+        "tres": {
+          "billing_weights": "",
+          "configured": "cpu=3200,mem=12451800M,node=100,billing=3200"
+        },
+        "cluster": "",
+        "cpus": {
+          "task_binding": 0,
+          "total": 3200
+        },
+        "defaults": {
+          "memory_per_cpu": 0,
+          "time": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          },
+          "job": ""
+        },
+        "grace_time": 0,
+        "maximums": {
+          "cpus_per_node": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "cpus_per_socket": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "memory_per_cpu": 0,
+          "nodes": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "shares": 1,
+          "time": {
+            "set": false,
+            "infinite": true,
+            "number": 0
+          },
+          "over_time_limit": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          }
+        },
+        "minimums": {
+          "nodes": 0
+        },
+        "name": "cpu32mem128gb",
+        "node_sets": "cpu32mem128gb_nodes",
+        "priority": {
+          "job_factor": 1,
+          "tier": 1
+        },
+        "timeouts": {
+          "resume": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          },
+          "suspend": {
+            "set": false,
+            "infinite": false,
+            "number": 0
+          }
+        },
+        "suspend_time": {
+          "set": false,
+          "infinite": false,
+          "number": 0
+        }
+      }
+    }
+  ],
+  "warnings": [
+  ],
+  "errors": [
+  ]
+}

@@ -1,0 +1,5 @@
+sacct --jobs=3
+JobID           JobName  Partition    Account  AllocCPUS      State ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+3            test_para+ cpu2mem4gb                     1    RUNNING      0:0 
+3.batch           batch                                1    RUNNING      0:0 

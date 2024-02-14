@@ -1,0 +1,11 @@
+sinfo
+PARTITION     AVAIL  TIMELIMIT  NODES  STATE NODELIST
+cpu2mem4gb*      up   infinite    100  idle~ cpu2mem4gb-dy-c7i-large-[1-100]
+cpu4mem32gb      up   infinite    100  idle~ cpu4mem32gb-dy-r7i-xlarge-[1-100]
+cpu8mem64gb      up   infinite    100  idle~ cpu8mem64gb-dy-r7i-2xlarge-[1-100]
+cpu2mem8gb       up   infinite    100  idle~ cpu2mem8gb-dy-c7i-xlarge-[1-100]
+cpu4mem16gb      up   infinite    100  idle~ cpu4mem16gb-dy-c7i-2xlarge-[1-100]
+cpu16mem128gb    up   infinite    100  idle~ cpu16mem128gb-dy-r7i-4xlarge-[1-100]
+cpu8mem32gb      up   infinite    100  idle~ cpu8mem32gb-dy-c7i-4xlarge-[1-100]
+cpu16mem64gb     up   infinite    100  idle~ cpu16mem64gb-dy-c7i-8xlarge-[1-100]
+cpu32mem128gb    up   infinite    100  idle~ cpu32mem128gb-dy-c7i-16xlarge-[1-100]

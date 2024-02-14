@@ -1,0 +1,39 @@
+name: goreleaser
+
+on:
+  push:
+    tags: ["sacct/v*", "sinfo/v*"]
+
+permissions:
+  contents: write
+  id-token: write
+  packages: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    env:
+      flags: ""
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-go@v3
+        with:
+          go-version: 1.19
+      - if: startsWith(github.ref, 'refs/tags/sacct/v')
+        shell: bash
+        run: echo "flags=-f ./sacct/.goreleaser.yaml" >> $GITHUB_ENV
+      - if: startsWith(github.ref, 'refs/tags/sinfo/v')
+        shell: bash
+        run: echo "flags=-f ./sinfo/.goreleaser.yaml" >> $GITHUB_ENV
+      - uses: goreleaser/goreleaser-action@v4
+        with:
+          distribution: goreleaser-pro
+          version: latest
+          args: release --clean ${{ env.flags }}
+
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GORELEASER_KEY: ${{ secrets.GORELEASER_KEY }}

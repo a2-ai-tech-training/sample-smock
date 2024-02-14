@@ -1,0 +1,14 @@
+sacct -vvv
+sacct: Jobs Eligible in the time window from Tue Feb 06 00:00:00 2024 to Tue Feb 06 19:06:07 2024
+sacct: debug:  Options selected:
+        opt_completion=no
+        opt_dup=no
+        opt_field_list=(null)
+        opt_help=0
+        opt_no_steps=no
+        opt_whole_hetjob=(null)
+sacct: debug:  accounting_storage/slurmdbd: _connect_dbd_conn: Sent PersistInit msg
+sacct: debug2: Clusters requested:      a2aiclusterkelley
+sacct: debug2: Userid requested : 870201156
+JobID           JobName  Partition    Account  AllocCPUS      State ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 

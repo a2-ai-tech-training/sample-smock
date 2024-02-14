@@ -1,0 +1,27 @@
+sacct --json
+{
+  "meta": {
+    "plugins": {
+      "data_parser": "data_parser\/v0.0.39",
+      "accounting_storage": "accounting_storage\/slurmdbd"
+    },
+    "command": [
+      "sacct",
+      "--json"
+    ],
+    "Slurm": {
+      "version": {
+        "major": 23,
+        "micro": 7,
+        "minor": 2
+      },
+      "release": "23.02.7"
+    }
+  },
+  "jobs": [
+  ],
+  "warnings": [
+  ],
+  "errors": [
+  ]
+}
