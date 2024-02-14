@@ -1,3 +1,3 @@
-module github.com/a2-ai-tech-training/sample-smock
+module sinfo
 
-go 1.21.5
+go 1.21
