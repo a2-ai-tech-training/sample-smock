@@ -13,6 +13,12 @@ builds:
   - goos:
       - linux
       - darwin
+  - goarch:
+      - amd64
+      - arm64
+
+universal_binaries:
+  - replace: true
 
 archives:
   - format: tar.gz
@@ -25,9 +31,6 @@ archives:
       {{- else if eq .Arch "386" }}i386
       {{- else }}{{ .Arch }}{{ end }}
       {{- if .Arm }}v{{ .Arm }}{{ end }}
-
-universal_binaries:
-  - replace: true
 
 release:
   name_template: "sacct"
